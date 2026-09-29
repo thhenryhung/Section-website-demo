@@ -1,0 +1,17 @@
+# Cloudflare Worker config for the listserve email intake — a separate
+# deploy from the main Pages project, since Pages Functions can't
+# handle the `email` event. See README.md for the one-time manual setup
+# (Email Routing rule → this Worker, and the shared secret below).
+
+name = "section-website-demo-email-intake"
+main = "src/worker.ts"
+compatibility_date = "2026-09-01"
+
+[vars]
+# Where a parsed calendar invite gets POSTed. Change on fork/deploy.
+INGEST_URL = "https://REPLACE_ME.pages.dev/api/ingest/event"
+
+# INGEST_SHARED_SECRET is a secret, not a var — set it with:
+#   wrangler secret put INGEST_SHARED_SECRET
+# and set the *same* value as a Pages secret on the main project:
+#   wrangler pages secret put INGEST_SHARED_SECRET --project-name section-website-demo

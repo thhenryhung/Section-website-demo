@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "rounds": [
+    {
+      "id": "dinner-2026-10-05",
+      "kind": "dinner",
+      "date": "2026-10-05",
+      "groups": [
+        {
+          "label": "Dinner Group 1",
+          "memberIds": [
+            "enavarro",
+            "falsayed",
+            "kduarte",
+            "evargas2",
+            "dyusuf",
+            "tiyer"
+          ]
+        },
+        {
+          "label": "Dinner Group 2",
+          "memberIds": [
+            "aaziz",
+            "evargas",
+            "fmenon",
+            "nduarte",
+            "acardoso",
+            "rbianchi"
+          ]
+        },
+        {
+          "label": "Dinner Group 3",
+          "memberIds": [
+            "periksen",
+            "balsayed",
+            "ayusuf",
+            "mkovacs",
+            "arossi",
+            "ctoma"
+          ]
+        },
+        {
+          "label": "Dinner Group 4",
+          "memberIds": [
+            "atoma",
+            "irahman",
+            "paziz",
+            "rrossi",
+            "akapoor2",
+            "ipetrov"
+          ]
+        },
+        {
+          "label": "Dinner Group 5",
+          "memberIds": [
+            "calsayed",
+            "aibarra",
+            "trestrepo",
+            "sfernandes",
+            "ryusuf",
+            "hbianchi"
+          ]
+        },
+        {
+          "label": "Dinner Group 6",
+          "memberIds": [
+            "atanaka",
+            "nwatanabe",
+            "rmoreau2",
+            "tmoreau",
+            "aiyer",
+            "orestrepo"
+          ]
+        },
+        {
+          "label": "Dinner Group 7",
+          "memberIds": [
+            "asilva",
+            "akapoor",
+            "spetrov",
+            "yhalvorsen",
+            "knowak",
+            "ncohen"
+          ]
+        },
+        {
+          "label": "Dinner Group 8",
+          "memberIds": [
+            "cbianchi",
+            "ckimura",
+            "eduarte",
+            "ddelgado",
+            "mokonkwo",
+            "afernandes"
+          ]
+        },
+        {
+          "label": "Dinner Group 9",
+          "memberIds": [
+            "pcohen",
+            "aduarte",
+            "rmoreau3",
+            "ihalvorsen",
+            "lbianchi",
+            "arahman"
+          ]
+        },
+        {
+          "label": "Dinner Group 10",
+          "memberIds": [
+            "skarimi",
+            "rlarsen",
+            "lokonkwo",
+            "nbergstrom",
+            "anilsen",
+            "ahaddad"
+          ]
+        },
+        {
+          "label": "Dinner Group 11",
+          "memberIds": [
+            "tpark",
+            "sschulz",
+            "mferreira",
+            "eeriksen",
+            "skovacs",
+            "asharma2"
+          ]
+        },
+        {
+          "label": "Dinner Group 12",
+          "memberIds": [
+            "rduarte",
+            "ocardoso",
+            "awatanabe",
+            "lalsayed",
+            "elarsen",
+            "ryusuf2"
+          ]
+        },
+        {
+          "label": "Dinner Group 13",
+          "memberIds": [
+            "amensah",
+            "haziz",
+            "akapoor3",
+            "omarchetti",
+            "gaziz",
+            "rmoreau"
+          ]
+        },
+        {
+          "label": "Dinner Group 14",
+          "memberIds": [
+            "ysharma",
+            "mbanerjee",
+            "ptoma",
+            "mkapoor",
+            "ymoreau",
+            "mferreira2"
+          ]
+        },
+        {
+          "label": "Dinner Group 15",
+          "memberIds": [
+            "asharma",
+            "drestrepo",
+            "fkimura",
+            "gbianchi",
+            "avandenberg",
+            "crahman"
+          ]
+        }
+      ],
+      "absentIds": [],
+      "generatedAt": "2026-09-29T22:58:43.145Z"
+    }
+  ]
+}

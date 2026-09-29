@@ -1,0 +1,3958 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-01T00:00:00.000Z",
+  "section": "Sample Section (synthetic data)",
+  "people": [
+    {
+      "id": "tiyer",
+      "firstName": "Tomas",
+      "lastName": "Iyer",
+      "displayName": "Tomas Iyer",
+      "email": "tiyer@example.invalid",
+      "phone": "+1 617 555 1000",
+      "photoId": "tiyer",
+      "homeRegion": {
+        "city": "Mumbai",
+        "country": "India"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Pinnacle Real Estate",
+          "title": "Product Manager",
+          "location": "Mumbai",
+          "industry": "Real Estate",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Ironwood Energy",
+          "title": "Operations Lead",
+          "location": "Mumbai",
+          "industry": "Energy",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "National University of Singapore",
+          "degree": "BA, Political Science",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "Media & Entertainment",
+        "Public Policy",
+        "Supply Chain",
+        "Private Equity",
+        "Artificial Intelligence"
+      ],
+      "birthday": {
+        "month": 11,
+        "day": 1
+      },
+      "startupExperience": true,
+      "pronouns": "they/them",
+      "funFact": "Former semi-professional goalkeeper."
+    },
+    {
+      "id": "amensah",
+      "firstName": "Arjun",
+      "lastName": "Mensah",
+      "displayName": "Arjun Mensah",
+      "email": "amensah@example.invalid",
+      "photoId": "amensah",
+      "homeRegion": {
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Engagement Manager",
+          "location": "Boston",
+          "industry": "Social Impact",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Nairobi",
+          "degree": "BS, Computer Science",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 8,
+        "day": 2
+      },
+      "startupExperience": false,
+      "pronouns": "he/him",
+      "funFact": "Ran a supper club for three years."
+    },
+    {
+      "id": "paziz",
+      "firstName": "Pedro",
+      "lastName": "Aziz",
+      "displayName": "Pedro Aziz",
+      "email": "paziz@example.invalid",
+      "phone": "+1 617 555 1002",
+      "photoId": "paziz",
+      "homeRegion": {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Ironwood Energy",
+          "title": "Strategy Manager",
+          "location": "Chicago",
+          "industry": "Energy",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "National University of Singapore",
+          "degree": "BA, Economics",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "General Management",
+        "Public Policy"
+      ],
+      "birthday": {
+        "month": 10,
+        "day": 21
+      },
+      "startupExperience": false,
+      "pronouns": "they/them",
+      "funFact": "Ran a supper club for three years."
+    },
+    {
+      "id": "spetrov",
+      "firstName": "Santiago",
+      "lastName": "Petrov",
+      "displayName": "Santiago Petrov",
+      "email": "spetrov@example.invalid",
+      "partner": "Ingrid Rahman",
+      "photoId": "spetrov",
+      "homeRegion": {
+        "city": "Austin",
+        "state": "TX",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Cadence Media",
+          "title": "Vice President",
+          "location": "Austin",
+          "industry": "Media",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Orbital Software",
+          "title": "Programme Officer",
+          "location": "Austin",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Indian Institute of Technology Bombay",
+          "degree": "BA, History",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Public Policy",
+        "Corporate Strategy",
+        "Private Equity"
+      ],
+      "birthday": {
+        "month": 10,
+        "day": 8
+      },
+      "startupExperience": false,
+      "pronouns": "he/him",
+      "funFact": "Ran a supper club for three years."
+    },
+    {
+      "id": "mkovacs",
+      "firstName": "Mei",
+      "lastName": "Kovacs",
+      "displayName": "Mei Kovacs",
+      "email": "mkovacs@example.invalid",
+      "phone": "+1 617 555 1004",
+      "photoId": "mkovacs",
+      "homeRegion": {
+        "city": "Berlin",
+        "country": "Germany"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Ironwood Energy",
+          "title": "Strategy Manager",
+          "location": "Berlin",
+          "industry": "Energy",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Cornell University",
+          "degree": "BA, History",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Impact Investing",
+        "Corporate Strategy",
+        "Real Estate Development",
+        "Media & Entertainment",
+        "Healthcare Delivery"
+      ],
+      "birthday": {
+        "month": 4,
+        "day": 17
+      },
+      "startupExperience": false,
+      "pronouns": "they/them",
+      "funFact": "Can solve a Rubik’s cube one-handed."
+    },
+    {
+      "id": "fkimura",
+      "firstName": "Freya",
+      "lastName": "Kimura",
+      "displayName": "Freya Kimura",
+      "email": "fkimura@example.invalid",
+      "phone": "+1 617 555 1005",
+      "photoId": "fkimura",
+      "homeRegion": {
+        "city": "Beirut",
+        "country": "Lebanon"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Pinnacle Real Estate",
+          "title": "Chief of Staff",
+          "location": "Beirut",
+          "industry": "Real Estate",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BCom, Finance",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Corporate Strategy",
+        "Growth Equity"
+      ],
+      "birthday": {
+        "month": 11,
+        "day": 2
+      },
+      "startupExperience": false,
+      "funFact": "Holds a national record in competitive rowing.",
+      "dietary": [
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "ddelgado",
+      "firstName": "Diego",
+      "lastName": "Delgado",
+      "displayName": "Diego Delgado",
+      "email": "ddelgado@example.invalid",
+      "phone": "+1 617 555 1006",
+      "photoId": "ddelgado",
+      "homeRegion": {
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Vela Health",
+          "title": "Associate",
+          "location": "London",
+          "industry": "Healthcare",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Corvus Bio",
+          "title": "Senior Associate",
+          "location": "London",
+          "industry": "Healthcare",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BA, International Relations",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Impact Investing"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 21
+      },
+      "startupExperience": false,
+      "funFact": "Ran a supper club for three years."
+    },
+    {
+      "id": "ipetrov",
+      "firstName": "Idris",
+      "lastName": "Petrov",
+      "displayName": "Idris Petrov",
+      "email": "ipetrov@example.invalid",
+      "phone": "+1 617 555 1007",
+      "photoId": "ipetrov",
+      "homeRegion": {
+        "city": "Warsaw",
+        "country": "Poland"
+      },
+      "preMBA": [
+        {
+          "company": "Ashford Capital",
+          "title": "Chief of Staff",
+          "location": "Warsaw",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Vela Health",
+          "title": "Research Scientist",
+          "location": "Warsaw",
+          "industry": "Healthcare",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Politecnico di Milano",
+          "degree": "BCom, Finance",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Real Estate Development",
+        "Private Equity"
+      ],
+      "birthday": {
+        "month": 4,
+        "day": 24
+      },
+      "startupExperience": true,
+      "pronouns": "they/them",
+      "funFact": "Built a canoe from scratch."
+    },
+    {
+      "id": "ocardoso",
+      "firstName": "Ondine",
+      "lastName": "Cardoso",
+      "displayName": "Ondine Cardoso",
+      "email": "ocardoso@example.invalid",
+      "phone": "+1 617 555 1008",
+      "photoId": "ocardoso",
+      "homeRegion": {
+        "city": "Stockholm",
+        "country": "Sweden"
+      },
+      "preMBA": [
+        {
+          "company": "Ashford Capital",
+          "title": "Chief of Staff",
+          "location": "Stockholm",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Rice University",
+          "degree": "BCom, Finance",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Climate Technology"
+      ],
+      "birthday": {
+        "month": 3,
+        "day": 16
+      },
+      "startupExperience": false,
+      "pronouns": "they/them",
+      "funFact": "Can solve a Rubik’s cube one-handed."
+    },
+    {
+      "id": "rmoreau",
+      "firstName": "Ravi",
+      "lastName": "Moreau",
+      "displayName": "Ravi Moreau",
+      "email": "rmoreau@example.invalid",
+      "phone": "+1 617 555 1009",
+      "photoId": "rmoreau",
+      "homeRegion": {
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Lumen Systems",
+          "title": "Operations Lead",
+          "location": "Tokyo",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Corvus Bio",
+          "title": "Product Manager",
+          "location": "Tokyo",
+          "industry": "Healthcare",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BA, Political Science",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Climate Technology",
+        "General Management",
+        "Supply Chain",
+        "Corporate Strategy"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 24
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "acardoso",
+      "firstName": "Arjun",
+      "lastName": "Cardoso",
+      "displayName": "Arjun Cardoso",
+      "email": "acardoso@example.invalid",
+      "phone": "+1 617 555 1010",
+      "photoId": "acardoso",
+      "homeRegion": {
+        "city": "Warsaw",
+        "country": "Poland"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Solstice Renewables",
+          "title": "Investment Analyst",
+          "location": "Warsaw",
+          "industry": "Energy",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Lumen Systems",
+          "title": "Founder",
+          "location": "Warsaw",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Edinburgh",
+          "degree": "BS, Computer Science",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Impact Investing",
+        "Healthcare Delivery",
+        "Venture Capital"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 4
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "akapoor",
+      "firstName": "Aisha",
+      "lastName": "Kapoor",
+      "displayName": "Aisha Kapoor",
+      "email": "akapoor@example.invalid",
+      "phone": "+1 617 555 1011",
+      "photoId": "akapoor",
+      "homeRegion": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "preMBA": [
+        {
+          "company": "Ashford Capital",
+          "title": "Founder",
+          "location": "San Francisco",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Blue Harbor Group",
+          "title": "Associate",
+          "location": "San Francisco",
+          "industry": "Finance",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Georgia Institute of Technology",
+          "degree": "BS, Computer Science",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Media & Entertainment",
+        "Fintech",
+        "Public Policy"
+      ],
+      "birthday": {
+        "month": 4,
+        "day": 19
+      },
+      "startupExperience": false,
+      "funFact": "Holds a national record in competitive rowing."
+    },
+    {
+      "id": "avandenberg",
+      "firstName": "Arjun",
+      "lastName": "Vandenberg",
+      "displayName": "Arjun Vandenberg",
+      "email": "avandenberg@example.invalid",
+      "phone": "+1 617 555 1012",
+      "photoId": "avandenberg",
+      "homeRegion": {
+        "city": "Sao Paulo",
+        "country": "Brazil"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Grayline Partners",
+          "title": "Vice President",
+          "location": "Sao Paulo",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Edinburgh",
+          "degree": "BA, International Relations",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 10,
+        "day": 10
+      },
+      "startupExperience": false,
+      "pronouns": "he/him",
+      "dietary": [
+        "Gluten-free"
+      ]
+    },
+    {
+      "id": "asharma",
+      "firstName": "Amara",
+      "lastName": "Sharma",
+      "displayName": "Amara Sharma",
+      "email": "asharma@example.invalid",
+      "photoId": "asharma",
+      "homeRegion": {
+        "city": "Warsaw",
+        "country": "Poland"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Halden Retail",
+          "title": "Analyst",
+          "location": "Warsaw",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Technical University of Munich",
+          "degree": "BS, Computer Science",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "Real Estate Development"
+      ],
+      "birthday": {
+        "month": 10,
+        "day": 11
+      },
+      "startupExperience": true,
+      "pronouns": "they/them"
+    },
+    {
+      "id": "aiyer",
+      "firstName": "Anneke",
+      "lastName": "Iyer",
+      "displayName": "Anneke Iyer",
+      "email": "aiyer@example.invalid",
+      "phone": "+1 617 555 1014",
+      "photoId": "aiyer",
+      "homeRegion": {
+        "city": "Cairo",
+        "country": "Egypt"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Research Scientist",
+          "location": "Cairo",
+          "industry": "Social Impact",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Kestrel Investments",
+          "title": "Programme Officer",
+          "location": "Cairo",
+          "industry": "Finance",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Georgia Institute of Technology",
+          "degree": "BS, Mechanical Engineering",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Product Management",
+        "Entrepreneurship",
+        "Real Estate Development",
+        "Media & Entertainment"
+      ],
+      "birthday": {
+        "month": 2,
+        "day": 4
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "ysharma",
+      "firstName": "Yuki",
+      "lastName": "Sharma",
+      "displayName": "Yuki Sharma",
+      "email": "ysharma@example.invalid",
+      "phone": "+1 617 555 1015",
+      "photoId": "ysharma",
+      "homeRegion": {
+        "city": "Mumbai",
+        "country": "India"
+      },
+      "preMBA": [
+        {
+          "company": "Fathom Labs",
+          "title": "Engagement Manager",
+          "location": "Mumbai",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "American University of Beirut",
+          "degree": "BS, Mechanical Engineering",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Private Equity",
+        "Climate Technology",
+        "Venture Capital"
+      ],
+      "birthday": {
+        "month": 8,
+        "day": 27
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "fmenon",
+      "firstName": "Freya",
+      "lastName": "Menon",
+      "displayName": "Freya Menon",
+      "email": "fmenon@example.invalid",
+      "phone": "+1 617 555 1016",
+      "photoId": "fmenon",
+      "homeRegion": {
+        "city": "Mexico City",
+        "country": "Mexico"
+      },
+      "preMBA": [
+        {
+          "company": "Meridian & Co.",
+          "title": "Chief of Staff",
+          "location": "Mexico City",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Universidad de los Andes",
+          "degree": "BA, International Relations",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Entrepreneurship",
+        "Venture Capital",
+        "Public Policy"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 22
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "ptoma",
+      "firstName": "Priya",
+      "lastName": "Toma",
+      "displayName": "Priya Toma",
+      "email": "ptoma@example.invalid",
+      "phone": "+1 617 555 1017",
+      "photoId": "ptoma",
+      "homeRegion": {
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Halden Retail",
+          "title": "Research Scientist",
+          "location": "Boston",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Rice University",
+          "degree": "BS, Mechanical Engineering",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "Real Estate Development",
+        "General Management"
+      ],
+      "birthday": {
+        "month": 9,
+        "day": 20
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "lbianchi",
+      "firstName": "Lukas",
+      "lastName": "Bianchi",
+      "displayName": "Lukas Bianchi",
+      "email": "lbianchi@example.invalid",
+      "phone": "+1 617 555 1018",
+      "photoId": "lbianchi",
+      "homeRegion": {
+        "city": "Beirut",
+        "country": "Lebanon"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Atlas Logistics",
+          "title": "Software Engineer",
+          "location": "Beirut",
+          "industry": "Industrials",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "National University of Singapore",
+          "degree": "BA, Political Science",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 3,
+        "day": 28
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "kduarte",
+      "firstName": "Kenji",
+      "lastName": "Duarte",
+      "displayName": "Kenji Duarte",
+      "email": "kduarte@example.invalid",
+      "phone": "+1 617 555 1019",
+      "photoId": "kduarte",
+      "homeRegion": {
+        "city": "Austin",
+        "state": "TX",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Lumen Systems",
+          "title": "Chief of Staff",
+          "location": "Austin",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Rice University",
+          "degree": "BA, Political Science",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Fintech",
+        "Product Management",
+        "Consumer Brands",
+        "Entrepreneurship",
+        "Climate Technology"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 12
+      },
+      "startupExperience": true,
+      "dietary": [
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "sfernandes",
+      "firstName": "Sofia",
+      "lastName": "Fernandes",
+      "displayName": "Sofia Fernandes",
+      "email": "sfernandes@example.invalid",
+      "phone": "+1 617 555 1020",
+      "photoId": "sfernandes",
+      "homeRegion": {
+        "city": "Warsaw",
+        "country": "Poland"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Solstice Renewables",
+          "title": "Research Scientist",
+          "location": "Warsaw",
+          "industry": "Energy",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Georgia Institute of Technology",
+          "degree": "BA, International Relations",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Corporate Strategy",
+        "Media & Entertainment",
+        "Entrepreneurship",
+        "Consumer Brands",
+        "Private Equity"
+      ],
+      "birthday": {
+        "month": 12,
+        "day": 4
+      },
+      "startupExperience": false,
+      "funFact": "Speaks five languages, badly."
+    },
+    {
+      "id": "afernandes",
+      "firstName": "Amina",
+      "lastName": "Fernandes",
+      "displayName": "Amina Fernandes",
+      "email": "afernandes@example.invalid",
+      "phone": "+1 617 555 1021",
+      "photoId": "afernandes",
+      "homeRegion": {
+        "city": "Bogota",
+        "country": "Colombia"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Solstice Renewables",
+          "title": "Associate",
+          "location": "Bogota",
+          "industry": "Energy",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "National University of Singapore",
+          "degree": "BEng, Electrical Engineering",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 4,
+        "day": 1
+      },
+      "startupExperience": false,
+      "dietary": [
+        "Kosher"
+      ]
+    },
+    {
+      "id": "lalsayed",
+      "firstName": "Lukas",
+      "lastName": "Al-Sayed",
+      "displayName": "Lukas Al-Sayed",
+      "email": "lalsayed@example.invalid",
+      "phone": "+1 617 555 1022",
+      "photoId": "lalsayed",
+      "homeRegion": {
+        "city": "Warsaw",
+        "country": "Poland"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Atlas Logistics",
+          "title": "Senior Associate",
+          "location": "Warsaw",
+          "industry": "Industrials",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Meridian & Co.",
+          "title": "Engagement Manager",
+          "location": "Warsaw",
+          "industry": "Consulting",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Universidad de los Andes",
+          "degree": "BA, Political Science",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Artificial Intelligence",
+        "Supply Chain",
+        "Product Management"
+      ],
+      "birthday": {
+        "month": 7,
+        "day": 27
+      },
+      "startupExperience": true,
+      "dietary": [
+        "Halal"
+      ]
+    },
+    {
+      "id": "periksen",
+      "firstName": "Priya",
+      "lastName": "Eriksen",
+      "displayName": "Priya Eriksen",
+      "email": "periksen@example.invalid",
+      "phone": "+1 617 555 1023",
+      "homeRegion": {
+        "city": "Toronto",
+        "state": "ON",
+        "country": "Canada"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Terrace Foods",
+          "title": "Associate",
+          "location": "Toronto",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "McGill University",
+          "degree": "BA, International Relations",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 4,
+        "day": 14
+      },
+      "startupExperience": true,
+      "pronouns": "she/her"
+    },
+    {
+      "id": "aaziz",
+      "firstName": "Arjun",
+      "lastName": "Aziz",
+      "displayName": "Arjun Aziz",
+      "email": "aaziz@example.invalid",
+      "phone": "+1 617 555 1024",
+      "photoId": "aaziz",
+      "homeRegion": {
+        "city": "Beirut",
+        "country": "Lebanon"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Terrace Foods",
+          "title": "Vice President",
+          "location": "Beirut",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Universidade de Sao Paulo",
+          "degree": "BS, Mechanical Engineering",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Fintech",
+        "Corporate Strategy",
+        "Private Equity",
+        "Real Estate Development"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 22
+      },
+      "startupExperience": true
+    },
+    {
+      "id": "evargas",
+      "firstName": "Elias",
+      "lastName": "Vargas",
+      "displayName": "Elias Vargas",
+      "email": "evargas@example.invalid",
+      "phone": "+1 617 555 1025",
+      "homeRegion": {
+        "city": "Lagos",
+        "country": "Nigeria"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Operations Lead",
+          "location": "Lagos",
+          "industry": "Social Impact",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Edinburgh",
+          "degree": "BA, International Relations",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 7,
+        "day": 26
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "gbianchi",
+      "firstName": "Greta",
+      "lastName": "Bianchi",
+      "displayName": "Greta Bianchi",
+      "email": "gbianchi@example.invalid",
+      "phone": "+1 617 555 1026",
+      "homeRegion": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Lumen Systems",
+          "title": "Strategy Manager",
+          "location": "New York",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BEng, Electrical Engineering",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 7,
+        "day": 1
+      },
+      "startupExperience": false,
+      "dietary": [
+        "Gluten-free",
+        "Kosher"
+      ]
+    },
+    {
+      "id": "ryusuf",
+      "firstName": "Rosa",
+      "lastName": "Yusuf",
+      "displayName": "Rosa Yusuf",
+      "email": "ryusuf@example.invalid",
+      "phone": "+1 617 555 1027",
+      "photoId": "ryusuf",
+      "homeRegion": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Meridian & Co.",
+          "title": "Product Manager",
+          "location": "Seoul",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "National University of Singapore",
+          "degree": "BA, Economics",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Artificial Intelligence",
+        "Supply Chain"
+      ],
+      "birthday": {
+        "month": 11,
+        "day": 13
+      },
+      "startupExperience": false,
+      "funFact": "Once lived in a lighthouse for a summer."
+    },
+    {
+      "id": "awatanabe",
+      "firstName": "Anika",
+      "lastName": "Watanabe",
+      "displayName": "Anika Watanabe",
+      "email": "awatanabe@example.invalid",
+      "phone": "+1 617 555 1028",
+      "photoId": "awatanabe",
+      "homeRegion": {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Lumen Systems",
+          "title": "Operations Lead",
+          "location": "Chicago",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Atlas Logistics",
+          "title": "Research Scientist",
+          "location": "Chicago",
+          "industry": "Industrials",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "McGill University",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Growth Equity",
+        "Fintech"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 24
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "falsayed",
+      "firstName": "Farid",
+      "lastName": "Al-Sayed",
+      "displayName": "Farid Al-Sayed",
+      "email": "falsayed@example.invalid",
+      "phone": "+1 617 555 1029",
+      "photoId": "falsayed",
+      "homeRegion": {
+        "city": "Bogota",
+        "country": "Colombia"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Kestrel Investments",
+          "title": "Research Scientist",
+          "location": "Bogota",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Michigan",
+          "degree": "BSc, Mathematics",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Venture Capital"
+      ],
+      "birthday": {
+        "month": 4,
+        "day": 28
+      },
+      "startupExperience": false,
+      "pronouns": "she/her",
+      "funFact": "Was an extra in a nationally televised advert."
+    },
+    {
+      "id": "aibarra",
+      "firstName": "Amina",
+      "lastName": "Ibarra",
+      "displayName": "Amina Ibarra",
+      "email": "aibarra@example.invalid",
+      "phone": "+1 617 555 1030",
+      "photoId": "aibarra",
+      "homeRegion": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Ashford Capital",
+          "title": "Founder",
+          "location": "New York",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Tokyo",
+          "degree": "BS, Computer Science",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 6,
+        "day": 27
+      },
+      "startupExperience": true,
+      "dietary": [
+        "Kosher",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "anilsen",
+      "firstName": "Arjun",
+      "lastName": "Nilsen",
+      "displayName": "Arjun Nilsen",
+      "email": "anilsen@example.invalid",
+      "phone": "+1 617 555 1031",
+      "photoId": "anilsen",
+      "homeRegion": {
+        "city": "Bogota",
+        "country": "Colombia"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Grayline Partners",
+          "title": "Engagement Manager",
+          "location": "Bogota",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Michigan",
+          "degree": "BS, Computer Science",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Entrepreneurship"
+      ],
+      "birthday": {
+        "month": 7,
+        "day": 14
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "gaziz",
+      "firstName": "Greta",
+      "lastName": "Aziz",
+      "displayName": "Greta Aziz",
+      "email": "gaziz@example.invalid",
+      "phone": "+1 617 555 1032",
+      "photoId": "gaziz",
+      "homeRegion": {
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Kestrel Investments",
+          "title": "Senior Associate",
+          "location": "London",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Senior Associate",
+          "location": "London",
+          "industry": "Social Impact",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Artificial Intelligence",
+        "Venture Capital",
+        "Climate Technology",
+        "Entrepreneurship",
+        "Media & Entertainment"
+      ],
+      "birthday": {
+        "month": 6,
+        "day": 25
+      },
+      "startupExperience": false,
+      "funFact": "Once cycled the length of Japan."
+    },
+    {
+      "id": "arossi",
+      "firstName": "Anneke",
+      "lastName": "Rossi",
+      "displayName": "Anneke Rossi",
+      "email": "arossi@example.invalid",
+      "phone": "+1 617 555 1033",
+      "photoId": "arossi",
+      "homeRegion": {
+        "city": "Warsaw",
+        "country": "Poland"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Corvus Bio",
+          "title": "Associate",
+          "location": "Warsaw",
+          "industry": "Healthcare",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Ministry of Finance",
+          "title": "Founder",
+          "location": "Warsaw",
+          "industry": "Government",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Georgia Institute of Technology",
+          "degree": "BA, Economics",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Growth Equity",
+        "Product Management",
+        "Corporate Strategy"
+      ],
+      "birthday": {
+        "month": 8,
+        "day": 4
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "akapoor2",
+      "firstName": "Anneke",
+      "lastName": "Kapoor",
+      "displayName": "Anneke Kapoor",
+      "email": "akapoor2@example.invalid",
+      "phone": "+1 617 555 1034",
+      "photoId": "akapoor2",
+      "homeRegion": {
+        "city": "Lagos",
+        "country": "Nigeria"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Terrace Foods",
+          "title": "Senior Associate",
+          "location": "Lagos",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Cadence Media",
+          "title": "Founder",
+          "location": "Lagos",
+          "industry": "Media",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Cornell University",
+          "degree": "BA, Political Science",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 2,
+        "day": 27
+      },
+      "startupExperience": false,
+      "pronouns": "they/them",
+      "dietary": [
+        "Nut allergy"
+      ]
+    },
+    {
+      "id": "ahaddad",
+      "firstName": "Amina",
+      "lastName": "Haddad",
+      "displayName": "Amina Haddad",
+      "email": "ahaddad@example.invalid",
+      "phone": "+1 617 555 1035",
+      "photoId": "ahaddad",
+      "homeRegion": {
+        "city": "Austin",
+        "state": "TX",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Vice President",
+          "location": "Austin",
+          "industry": "Social Impact",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Fathom Labs",
+          "title": "Strategy Manager",
+          "location": "Austin",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Michigan",
+          "degree": "BS, Mechanical Engineering",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Artificial Intelligence"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 23
+      },
+      "startupExperience": false,
+      "pronouns": "he/him"
+    },
+    {
+      "id": "ihalvorsen",
+      "firstName": "Ingrid",
+      "lastName": "Halvorsen",
+      "displayName": "Ingrid Halvorsen",
+      "email": "ihalvorsen@example.invalid",
+      "photoId": "ihalvorsen",
+      "homeRegion": {
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Vela Health",
+          "title": "Chief of Staff",
+          "location": "Boston",
+          "industry": "Healthcare",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Northwind Advisory",
+          "title": "Analyst",
+          "location": "Boston",
+          "industry": "Consulting",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Michigan",
+          "degree": "BA, Political Science",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Media & Entertainment",
+        "Consumer Brands"
+      ],
+      "birthday": {
+        "month": 6,
+        "day": 21
+      },
+      "startupExperience": false,
+      "pronouns": "they/them"
+    },
+    {
+      "id": "rbianchi",
+      "firstName": "Rafael",
+      "lastName": "Bianchi",
+      "displayName": "Rafael Bianchi",
+      "email": "rbianchi@example.invalid",
+      "phone": "+1 617 555 1037",
+      "photoId": "rbianchi",
+      "homeRegion": {
+        "city": "Sao Paulo",
+        "country": "Brazil"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Kestrel Investments",
+          "title": "Programme Officer",
+          "location": "Sao Paulo",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Lumen Systems",
+          "title": "Programme Officer",
+          "location": "Sao Paulo",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Tokyo",
+          "degree": "BCom, Finance",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Corporate Strategy",
+        "Climate Technology",
+        "Media & Entertainment",
+        "Growth Equity",
+        "Venture Capital"
+      ],
+      "birthday": {
+        "month": 8,
+        "day": 27
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "balsayed",
+      "firstName": "Beatriz",
+      "lastName": "Al-Sayed",
+      "displayName": "Beatriz Al-Sayed",
+      "email": "balsayed@example.invalid",
+      "phone": "+1 617 555 1038",
+      "photoId": "balsayed",
+      "homeRegion": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Meridian & Co.",
+          "title": "Investment Analyst",
+          "location": "Seoul",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Michigan",
+          "degree": "BEng, Electrical Engineering",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Public Policy",
+        "Venture Capital",
+        "Consumer Brands",
+        "Entrepreneurship"
+      ],
+      "birthday": {
+        "month": 8,
+        "day": 2
+      },
+      "startupExperience": false,
+      "pronouns": "he/him",
+      "dietary": [
+        "Gluten-free"
+      ]
+    },
+    {
+      "id": "nduarte",
+      "firstName": "Noor",
+      "lastName": "Duarte",
+      "displayName": "Noor Duarte",
+      "email": "nduarte@example.invalid",
+      "phone": "+1 617 555 1039",
+      "photoId": "nduarte",
+      "homeRegion": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Orbital Software",
+          "title": "Associate",
+          "location": "New York",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Pinnacle Real Estate",
+          "title": "Senior Associate",
+          "location": "New York",
+          "industry": "Real Estate",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BSc, Mathematics",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 9,
+        "day": 8
+      },
+      "startupExperience": false,
+      "funFact": "Can solve a Rubik’s cube one-handed."
+    },
+    {
+      "id": "trestrepo",
+      "firstName": "Thandi",
+      "lastName": "Restrepo",
+      "displayName": "Thandi Restrepo",
+      "email": "trestrepo@example.invalid",
+      "phone": "+1 617 555 1040",
+      "photoId": "trestrepo",
+      "homeRegion": {
+        "city": "Nairobi",
+        "country": "Kenya"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Orbital Software",
+          "title": "Senior Associate",
+          "location": "Nairobi",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Universidade de Sao Paulo",
+          "degree": "BSc, Mathematics",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Fintech"
+      ],
+      "birthday": {
+        "month": 2,
+        "day": 19
+      },
+      "startupExperience": true
+    },
+    {
+      "id": "mkapoor",
+      "firstName": "Mateo",
+      "lastName": "Kapoor",
+      "displayName": "Mateo Kapoor",
+      "email": "mkapoor@example.invalid",
+      "phone": "+1 617 555 1041",
+      "photoId": "mkapoor",
+      "homeRegion": {
+        "city": "Sao Paulo",
+        "country": "Brazil"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Corvus Bio",
+          "title": "Programme Officer",
+          "location": "Sao Paulo",
+          "industry": "Healthcare",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Grayline Partners",
+          "title": "Investment Analyst",
+          "location": "Sao Paulo",
+          "industry": "Consulting",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Universidade de Sao Paulo",
+          "degree": "BA, History",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Private Equity",
+        "Venture Capital",
+        "Real Estate Development",
+        "Healthcare Delivery"
+      ],
+      "birthday": {
+        "month": 11,
+        "day": 18
+      },
+      "startupExperience": false,
+      "pronouns": "he/him",
+      "funFact": "Former semi-professional goalkeeper.",
+      "dietary": [
+        "No shellfish",
+        "Gluten-free"
+      ]
+    },
+    {
+      "id": "pcohen",
+      "firstName": "Pedro",
+      "lastName": "Cohen",
+      "displayName": "Pedro Cohen",
+      "email": "pcohen@example.invalid",
+      "phone": "+1 617 555 1042",
+      "photoId": "pcohen",
+      "homeRegion": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Ministry of Finance",
+          "title": "Research Scientist",
+          "location": "Seoul",
+          "industry": "Government",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Universidad de los Andes",
+          "degree": "BA, Political Science",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "General Management",
+        "Impact Investing",
+        "Corporate Strategy"
+      ],
+      "birthday": {
+        "month": 9,
+        "day": 1
+      },
+      "startupExperience": false,
+      "pronouns": "they/them",
+      "funFact": "Has visited every continent except Antarctica.",
+      "dietary": [
+        "No shellfish",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "aduarte",
+      "firstName": "Anneke",
+      "lastName": "Duarte",
+      "displayName": "Anneke Duarte",
+      "email": "aduarte@example.invalid",
+      "phone": "+1 617 555 1043",
+      "photoId": "aduarte",
+      "homeRegion": {
+        "city": "Lagos",
+        "country": "Nigeria"
+      },
+      "preMBA": [
+        {
+          "company": "Orbital Software",
+          "title": "Chief of Staff",
+          "location": "Lagos",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Blue Harbor Group",
+          "title": "Operations Lead",
+          "location": "Lagos",
+          "industry": "Finance",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Cornell University",
+          "degree": "BEng, Electrical Engineering",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 8,
+        "day": 16
+      },
+      "startupExperience": false,
+      "funFact": "Has visited every continent except Antarctica."
+    },
+    {
+      "id": "enavarro",
+      "firstName": "Elias",
+      "lastName": "Navarro",
+      "displayName": "Elias Navarro",
+      "email": "enavarro@example.invalid",
+      "phone": "+1 617 555 1044",
+      "photoId": "enavarro",
+      "homeRegion": {
+        "city": "Stockholm",
+        "country": "Sweden"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Halden Retail",
+          "title": "Analyst",
+          "location": "Stockholm",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Politecnico di Milano",
+          "degree": "BA, Political Science",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "General Management",
+        "Entrepreneurship",
+        "Media & Entertainment"
+      ],
+      "birthday": {
+        "month": 6,
+        "day": 3
+      },
+      "startupExperience": true
+    },
+    {
+      "id": "dyusuf",
+      "firstName": "Diego",
+      "lastName": "Yusuf",
+      "displayName": "Diego Yusuf",
+      "email": "dyusuf@example.invalid",
+      "phone": "+1 617 555 1045",
+      "photoId": "dyusuf",
+      "homeRegion": {
+        "city": "Lagos",
+        "country": "Nigeria"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Corvus Bio",
+          "title": "Vice President",
+          "location": "Lagos",
+          "industry": "Healthcare",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Kestrel Investments",
+          "title": "Senior Associate",
+          "location": "Lagos",
+          "industry": "Finance",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Technical University of Munich",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "Artificial Intelligence",
+        "Impact Investing",
+        "Public Policy",
+        "Fintech",
+        "Media & Entertainment"
+      ],
+      "birthday": {
+        "month": 7,
+        "day": 22
+      },
+      "startupExperience": false,
+      "funFact": "Speaks five languages, badly."
+    },
+    {
+      "id": "rrossi",
+      "firstName": "Ravi",
+      "lastName": "Rossi",
+      "displayName": "Ravi Rossi",
+      "email": "rrossi@example.invalid",
+      "phone": "+1 617 555 1046",
+      "photoId": "rrossi",
+      "homeRegion": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Cadence Media",
+          "title": "Chief of Staff",
+          "location": "Seoul",
+          "industry": "Media",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Research Scientist",
+          "location": "Seoul",
+          "industry": "Social Impact",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Nairobi",
+          "degree": "BA, Political Science",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Product Management",
+        "Consumer Brands"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 10
+      },
+      "startupExperience": true,
+      "pronouns": "they/them"
+    },
+    {
+      "id": "asilva",
+      "firstName": "Anika",
+      "lastName": "Silva",
+      "displayName": "Anika Silva",
+      "email": "asilva@example.invalid",
+      "phone": "+1 617 555 1047",
+      "photoId": "asilva",
+      "homeRegion": {
+        "city": "Mexico City",
+        "country": "Mexico"
+      },
+      "preMBA": [
+        {
+          "company": "Vela Health",
+          "title": "Product Manager",
+          "location": "Mexico City",
+          "industry": "Healthcare",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Politecnico di Milano",
+          "degree": "BCom, Finance",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 12,
+        "day": 28
+      },
+      "startupExperience": false,
+      "dietary": [
+        "Kosher"
+      ]
+    },
+    {
+      "id": "orestrepo",
+      "firstName": "Ondine",
+      "lastName": "Restrepo",
+      "displayName": "Ondine Restrepo",
+      "email": "orestrepo@example.invalid",
+      "phone": "+1 617 555 1048",
+      "photoId": "orestrepo",
+      "homeRegion": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Halden Retail",
+          "title": "Vice President",
+          "location": "Seoul",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Michigan",
+          "degree": "BA, History",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Healthcare Delivery",
+        "Product Management"
+      ],
+      "birthday": {
+        "month": 5,
+        "day": 4
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "ckimura",
+      "firstName": "Chiara",
+      "lastName": "Kimura",
+      "displayName": "Chiara Kimura",
+      "email": "ckimura@example.invalid",
+      "phone": "+1 617 555 1049",
+      "photoId": "ckimura",
+      "homeRegion": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Kestrel Investments",
+          "title": "Strategy Manager",
+          "location": "New York",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Rice University",
+          "degree": "BA, International Relations",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Growth Equity",
+        "Healthcare Delivery",
+        "Venture Capital"
+      ],
+      "birthday": {
+        "month": 4,
+        "day": 17
+      },
+      "startupExperience": false,
+      "funFact": "Once cycled the length of Japan."
+    },
+    {
+      "id": "asharma2",
+      "firstName": "Amina",
+      "lastName": "Sharma",
+      "displayName": "Amina Sharma",
+      "email": "asharma2@example.invalid",
+      "phone": "+1 617 555 1050",
+      "photoId": "asharma2",
+      "homeRegion": {
+        "city": "Sao Paulo",
+        "country": "Brazil"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Founder",
+          "location": "Sao Paulo",
+          "industry": "Social Impact",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Software Engineer",
+          "location": "Sao Paulo",
+          "industry": "Social Impact",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "American University of Beirut",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Impact Investing",
+        "Product Management",
+        "Fintech",
+        "Corporate Strategy"
+      ],
+      "birthday": {
+        "month": 2,
+        "day": 19
+      },
+      "startupExperience": true,
+      "funFact": "Holds a national record in competitive rowing.",
+      "dietary": [
+        "No shellfish"
+      ]
+    },
+    {
+      "id": "elarsen",
+      "firstName": "Elena",
+      "lastName": "Larsen",
+      "displayName": "Elena Larsen",
+      "email": "elarsen@example.invalid",
+      "phone": "+1 617 555 1051",
+      "photoId": "elarsen",
+      "homeRegion": {
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Northwind Advisory",
+          "title": "Investment Analyst",
+          "location": "Tokyo",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "National University of Singapore",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Entrepreneurship",
+        "Private Equity",
+        "Artificial Intelligence"
+      ],
+      "birthday": {
+        "month": 10,
+        "day": 22
+      },
+      "startupExperience": false,
+      "pronouns": "she/her",
+      "dietary": [
+        "Kosher"
+      ]
+    },
+    {
+      "id": "tmoreau",
+      "firstName": "Tobias",
+      "lastName": "Moreau",
+      "displayName": "Tobias Moreau",
+      "email": "tmoreau@example.invalid",
+      "phone": "+1 617 555 1052",
+      "photoId": "tmoreau",
+      "homeRegion": {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Atlas Logistics",
+          "title": "Research Scientist",
+          "location": "Chicago",
+          "industry": "Industrials",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Northwind Advisory",
+          "title": "Research Scientist",
+          "location": "Chicago",
+          "industry": "Consulting",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Michigan",
+          "degree": "BA, History",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "Private Equity",
+        "Healthcare Delivery",
+        "Artificial Intelligence",
+        "Climate Technology",
+        "Corporate Strategy"
+      ],
+      "birthday": {
+        "month": 2,
+        "day": 19
+      },
+      "startupExperience": true,
+      "funFact": "Former semi-professional goalkeeper."
+    },
+    {
+      "id": "atoma",
+      "firstName": "Anneke",
+      "lastName": "Toma",
+      "displayName": "Anneke Toma",
+      "email": "atoma@example.invalid",
+      "photoId": "atoma",
+      "homeRegion": {
+        "city": "Beirut",
+        "country": "Lebanon"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Fathom Labs",
+          "title": "Operations Lead",
+          "location": "Beirut",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Orbital Software",
+          "title": "Software Engineer",
+          "location": "Beirut",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "McGill University",
+          "degree": "BA, Political Science",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 12,
+        "day": 8
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "evargas2",
+      "firstName": "Emeka",
+      "lastName": "Vargas",
+      "displayName": "Emeka Vargas",
+      "email": "evargas2@example.invalid",
+      "phone": "+1 617 555 1054",
+      "photoId": "evargas2",
+      "homeRegion": {
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Strategy Manager",
+          "location": "Boston",
+          "industry": "Social Impact",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Kestrel Investments",
+          "title": "Senior Associate",
+          "location": "Boston",
+          "industry": "Finance",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BA, Economics",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "General Management",
+        "Media & Entertainment",
+        "Climate Technology"
+      ],
+      "birthday": {
+        "month": 6,
+        "day": 9
+      },
+      "startupExperience": false,
+      "funFact": "Holds a national record in competitive rowing.",
+      "dietary": [
+        "Nut allergy"
+      ]
+    },
+    {
+      "id": "cbianchi",
+      "firstName": "Camila",
+      "lastName": "Bianchi",
+      "displayName": "Camila Bianchi",
+      "email": "cbianchi@example.invalid",
+      "phone": "+1 617 555 1055",
+      "photoId": "cbianchi",
+      "homeRegion": {
+        "city": "Sao Paulo",
+        "country": "Brazil"
+      },
+      "preMBA": [
+        {
+          "company": "Halden Retail",
+          "title": "Engagement Manager",
+          "location": "Sao Paulo",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Pinnacle Real Estate",
+          "title": "Founder",
+          "location": "Sao Paulo",
+          "industry": "Real Estate",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Technical University of Munich",
+          "degree": "BEng, Electrical Engineering",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Corporate Strategy"
+      ],
+      "birthday": {
+        "month": 8,
+        "day": 9
+      },
+      "startupExperience": false,
+      "pronouns": "she/her"
+    },
+    {
+      "id": "ymoreau",
+      "firstName": "Yuki",
+      "lastName": "Moreau",
+      "displayName": "Yuki Moreau",
+      "email": "ymoreau@example.invalid",
+      "phone": "+1 617 555 1056",
+      "photoId": "ymoreau",
+      "homeRegion": {
+        "city": "Singapore",
+        "country": "Singapore"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Ashford Capital",
+          "title": "Software Engineer",
+          "location": "Singapore",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Tecnologico de Monterrey",
+          "degree": "BEng, Electrical Engineering",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Consumer Brands",
+        "General Management",
+        "Corporate Strategy",
+        "Public Policy",
+        "Real Estate Development"
+      ],
+      "birthday": {
+        "month": 8,
+        "day": 26
+      },
+      "startupExperience": true,
+      "pronouns": "she/her"
+    },
+    {
+      "id": "irahman",
+      "firstName": "Ingrid",
+      "lastName": "Rahman",
+      "displayName": "Ingrid Rahman",
+      "email": "irahman@example.invalid",
+      "phone": "+1 617 555 1057",
+      "partner": "Santiago Petrov",
+      "photoId": "irahman",
+      "homeRegion": {
+        "city": "Bogota",
+        "country": "Colombia"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Northwind Advisory",
+          "title": "Software Engineer",
+          "location": "Bogota",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Cadence Media",
+          "title": "Chief of Staff",
+          "location": "Bogota",
+          "industry": "Media",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "National University of Singapore",
+          "degree": "BA, Political Science",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Climate Technology",
+        "Supply Chain"
+      ],
+      "birthday": {
+        "month": 11,
+        "day": 8
+      },
+      "startupExperience": false,
+      "pronouns": "he/him"
+    },
+    {
+      "id": "rduarte",
+      "firstName": "Rafael",
+      "lastName": "Duarte",
+      "displayName": "Rafael Duarte",
+      "email": "rduarte@example.invalid",
+      "phone": "+1 617 555 1058",
+      "photoId": "rduarte",
+      "homeRegion": {
+        "city": "Berlin",
+        "country": "Germany"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Cadence Media",
+          "title": "Vice President",
+          "location": "Berlin",
+          "industry": "Media",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Pinnacle Real Estate",
+          "title": "Operations Lead",
+          "location": "Berlin",
+          "industry": "Real Estate",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Rice University",
+          "degree": "BEng, Electrical Engineering",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 1,
+        "day": 11
+      },
+      "startupExperience": true,
+      "pronouns": "he/him",
+      "funFact": "Was an extra in a nationally televised advert."
+    },
+    {
+      "id": "ayusuf",
+      "firstName": "Anneke",
+      "lastName": "Yusuf",
+      "displayName": "Anneke Yusuf",
+      "email": "ayusuf@example.invalid",
+      "phone": "+1 617 555 1059",
+      "photoId": "ayusuf",
+      "homeRegion": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Fathom Labs",
+          "title": "Operations Lead",
+          "location": "New York",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Lumen Systems",
+          "title": "Vice President",
+          "location": "New York",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Seoul National University",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Media & Entertainment"
+      ],
+      "birthday": {
+        "month": 5,
+        "day": 27
+      },
+      "startupExperience": false,
+      "pronouns": "he/him"
+    },
+    {
+      "id": "mokonkwo",
+      "firstName": "Mei",
+      "lastName": "Okonkwo",
+      "displayName": "Mei Okonkwo",
+      "email": "mokonkwo@example.invalid",
+      "phone": "+1 617 555 1060",
+      "photoId": "mokonkwo",
+      "homeRegion": {
+        "city": "Berlin",
+        "country": "Germany"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Fathom Labs",
+          "title": "Analyst",
+          "location": "Berlin",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Corvus Bio",
+          "title": "Research Scientist",
+          "location": "Berlin",
+          "industry": "Healthcare",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Seoul National University",
+          "degree": "BS, Mechanical Engineering",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "Product Management",
+        "Supply Chain",
+        "Public Policy",
+        "Media & Entertainment",
+        "Consumer Brands"
+      ],
+      "birthday": {
+        "month": 5,
+        "day": 16
+      },
+      "startupExperience": false,
+      "pronouns": "they/them"
+    },
+    {
+      "id": "sschulz",
+      "firstName": "Santiago",
+      "lastName": "Schulz",
+      "displayName": "Santiago Schulz",
+      "email": "sschulz@example.invalid",
+      "phone": "+1 617 555 1061",
+      "photoId": "sschulz",
+      "homeRegion": {
+        "city": "Lagos",
+        "country": "Nigeria"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Lumen Systems",
+          "title": "Software Engineer",
+          "location": "Lagos",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "McGill University",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Private Equity",
+        "Supply Chain",
+        "Artificial Intelligence",
+        "Real Estate Development",
+        "Fintech"
+      ],
+      "birthday": {
+        "month": 11,
+        "day": 7
+      },
+      "startupExperience": true,
+      "funFact": "Was an extra in a nationally televised advert."
+    },
+    {
+      "id": "lokonkwo",
+      "firstName": "Lucia",
+      "lastName": "Okonkwo",
+      "displayName": "Lucia Okonkwo",
+      "email": "lokonkwo@example.invalid",
+      "phone": "+1 617 555 1062",
+      "homeRegion": {
+        "city": "Beirut",
+        "country": "Lebanon"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Ashford Capital",
+          "title": "Analyst",
+          "location": "Beirut",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "American University of Beirut",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "Supply Chain",
+        "Corporate Strategy"
+      ],
+      "birthday": {
+        "month": 4,
+        "day": 3
+      },
+      "startupExperience": false,
+      "funFact": "Ran a supper club for three years."
+    },
+    {
+      "id": "nbergstrom",
+      "firstName": "Nadia",
+      "lastName": "Bergstrom",
+      "displayName": "Nadia Bergstrom",
+      "email": "nbergstrom@example.invalid",
+      "phone": "+1 617 555 1063",
+      "photoId": "nbergstrom",
+      "homeRegion": {
+        "city": "Berlin",
+        "country": "Germany"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Pinnacle Real Estate",
+          "title": "Founder",
+          "location": "Berlin",
+          "industry": "Real Estate",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Blue Harbor Group",
+          "title": "Product Manager",
+          "location": "Berlin",
+          "industry": "Finance",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Cornell University",
+          "degree": "BA, History",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 6,
+        "day": 6
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "knowak",
+      "firstName": "Kenji",
+      "lastName": "Nowak",
+      "displayName": "Kenji Nowak",
+      "email": "knowak@example.invalid",
+      "phone": "+1 617 555 1064",
+      "photoId": "knowak",
+      "homeRegion": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "preMBA": [
+        {
+          "company": "Ministry of Finance",
+          "title": "Analyst",
+          "location": "Seoul",
+          "industry": "Government",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Universidade de Sao Paulo",
+          "degree": "BA, International Relations",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Growth Equity",
+        "Public Policy"
+      ],
+      "birthday": {
+        "month": 10,
+        "day": 23
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "ncohen",
+      "firstName": "Noor",
+      "lastName": "Cohen",
+      "displayName": "Noor Cohen",
+      "email": "ncohen@example.invalid",
+      "phone": "+1 617 555 1065",
+      "photoId": "ncohen",
+      "homeRegion": {
+        "city": "Bogota",
+        "country": "Colombia"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Orbital Software",
+          "title": "Founder",
+          "location": "Bogota",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "McGill University",
+          "degree": "BEng, Electrical Engineering",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "Fintech",
+        "Artificial Intelligence",
+        "Consumer Brands"
+      ],
+      "birthday": {
+        "month": 11,
+        "day": 9
+      },
+      "startupExperience": false,
+      "pronouns": "he/him"
+    },
+    {
+      "id": "rmoreau2",
+      "firstName": "Rosa",
+      "lastName": "Moreau",
+      "displayName": "Rosa Moreau",
+      "email": "rmoreau2@example.invalid",
+      "phone": "+1 617 555 1066",
+      "photoId": "rmoreau2",
+      "homeRegion": {
+        "city": "Beirut",
+        "country": "Lebanon"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Kestrel Investments",
+          "title": "Programme Officer",
+          "location": "Beirut",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BCom, Finance",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 8,
+        "day": 8
+      },
+      "startupExperience": false,
+      "dietary": [
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "mferreira",
+      "firstName": "Mira",
+      "lastName": "Ferreira",
+      "displayName": "Mira Ferreira",
+      "email": "mferreira@example.invalid",
+      "phone": "+1 617 555 1067",
+      "photoId": "mferreira",
+      "homeRegion": {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Atlas Logistics",
+          "title": "Strategy Manager",
+          "location": "New York",
+          "industry": "Industrials",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Solstice Renewables",
+          "title": "Research Scientist",
+          "location": "New York",
+          "industry": "Energy",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Seoul National University",
+          "degree": "BS, Computer Science",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 5,
+        "day": 23
+      },
+      "startupExperience": false,
+      "funFact": "Has visited every continent except Antarctica."
+    },
+    {
+      "id": "mferreira2",
+      "firstName": "Mira",
+      "lastName": "Ferreira",
+      "displayName": "Mira Ferreira",
+      "email": "mferreira2@example.invalid",
+      "phone": "+1 617 555 1068",
+      "photoId": "mferreira2",
+      "homeRegion": {
+        "city": "Warsaw",
+        "country": "Poland"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Pinnacle Real Estate",
+          "title": "Founder",
+          "location": "Warsaw",
+          "industry": "Real Estate",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Lumen Systems",
+          "title": "Senior Associate",
+          "location": "Warsaw",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Cairo University",
+          "degree": "BS, Computer Science",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Public Policy",
+        "Media & Entertainment"
+      ],
+      "birthday": {
+        "month": 10,
+        "day": 8
+      },
+      "startupExperience": false,
+      "pronouns": "they/them"
+    },
+    {
+      "id": "skovacs",
+      "firstName": "Sofia",
+      "lastName": "Kovacs",
+      "displayName": "Sofia Kovacs",
+      "email": "skovacs@example.invalid",
+      "phone": "+1 617 555 1069",
+      "photoId": "skovacs",
+      "homeRegion": {
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Corvus Bio",
+          "title": "Software Engineer",
+          "location": "Tokyo",
+          "industry": "Healthcare",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Orbital Software",
+          "title": "Investment Analyst",
+          "location": "Tokyo",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Seoul National University",
+          "degree": "BSc, Mathematics",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 7,
+        "day": 1
+      },
+      "startupExperience": true,
+      "funFact": "Can solve a Rubik’s cube one-handed."
+    },
+    {
+      "id": "ctoma",
+      "firstName": "Camila",
+      "lastName": "Toma",
+      "displayName": "Camila Toma",
+      "email": "ctoma@example.invalid",
+      "phone": "+1 617 555 1070",
+      "photoId": "ctoma",
+      "homeRegion": {
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Kestrel Investments",
+          "title": "Operations Lead",
+          "location": "London",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Grayline Partners",
+          "title": "Founder",
+          "location": "London",
+          "industry": "Consulting",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Technical University of Munich",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "Supply Chain",
+        "General Management",
+        "Growth Equity",
+        "Consumer Brands",
+        "Impact Investing"
+      ],
+      "birthday": {
+        "month": 12,
+        "day": 5
+      },
+      "startupExperience": true
+    },
+    {
+      "id": "crahman",
+      "firstName": "Camila",
+      "lastName": "Rahman",
+      "displayName": "Camila Rahman",
+      "email": "crahman@example.invalid",
+      "phone": "+1 617 555 1071",
+      "photoId": "crahman",
+      "homeRegion": {
+        "city": "Toronto",
+        "state": "ON",
+        "country": "Canada"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Orbital Software",
+          "title": "Product Manager",
+          "location": "Toronto",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Indian Institute of Technology Bombay",
+          "degree": "BA, Political Science",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 11,
+        "day": 25
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "eeriksen",
+      "firstName": "Elena",
+      "lastName": "Eriksen",
+      "displayName": "Elena Eriksen",
+      "email": "eeriksen@example.invalid",
+      "phone": "+1 617 555 1072",
+      "photoId": "eeriksen",
+      "homeRegion": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "preMBA": [
+        {
+          "company": "Blue Harbor Group",
+          "title": "Programme Officer",
+          "location": "Seoul",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Orbital Software",
+          "title": "Investment Analyst",
+          "location": "Seoul",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Nairobi",
+          "degree": "BA, Political Science",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [
+        "Healthcare Delivery"
+      ],
+      "birthday": {
+        "month": 3,
+        "day": 11
+      },
+      "startupExperience": false,
+      "funFact": "Former semi-professional goalkeeper."
+    },
+    {
+      "id": "calsayed",
+      "firstName": "Chiara",
+      "lastName": "Al-Sayed",
+      "displayName": "Chiara Al-Sayed",
+      "email": "calsayed@example.invalid",
+      "photoId": "calsayed",
+      "homeRegion": {
+        "city": "Lagos",
+        "country": "Nigeria"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Terrace Foods",
+          "title": "Vice President",
+          "location": "Lagos",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Terrace Foods",
+          "title": "Senior Associate",
+          "location": "Lagos",
+          "industry": "Consumer",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Edinburgh",
+          "degree": "BS, Mechanical Engineering",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Product Management",
+        "Fintech",
+        "Venture Capital"
+      ],
+      "birthday": {
+        "month": 4,
+        "day": 24
+      },
+      "startupExperience": true,
+      "pronouns": "she/her",
+      "funFact": "Has visited every continent except Antarctica."
+    },
+    {
+      "id": "rmoreau3",
+      "firstName": "Rafael",
+      "lastName": "Moreau",
+      "displayName": "Rafael Moreau",
+      "email": "rmoreau3@example.invalid",
+      "phone": "+1 617 555 1074",
+      "photoId": "rmoreau3",
+      "homeRegion": {
+        "city": "Sao Paulo",
+        "country": "Brazil"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Terrace Foods",
+          "title": "Founder",
+          "location": "Sao Paulo",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BCom, Finance",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 4,
+        "day": 16
+      },
+      "startupExperience": true
+    },
+    {
+      "id": "ryusuf2",
+      "firstName": "Rafael",
+      "lastName": "Yusuf",
+      "displayName": "Rafael Yusuf",
+      "email": "ryusuf2@example.invalid",
+      "phone": "+1 617 555 1075",
+      "homeRegion": {
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States"
+      },
+      "preMBA": [
+        {
+          "company": "Corvus Bio",
+          "title": "Programme Officer",
+          "location": "Boston",
+          "industry": "Healthcare",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Indian Institute of Technology Bombay",
+          "degree": "BA, Economics",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Consumer Brands",
+        "Real Estate Development"
+      ],
+      "birthday": {
+        "month": 2,
+        "day": 12
+      },
+      "startupExperience": false,
+      "funFact": "Once lived in a lighthouse for a summer.",
+      "dietary": [
+        "Halal",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "drestrepo",
+      "firstName": "Diego",
+      "lastName": "Restrepo",
+      "displayName": "Diego Restrepo",
+      "email": "drestrepo@example.invalid",
+      "phone": "+1 617 555 1076",
+      "photoId": "drestrepo",
+      "homeRegion": {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Blue Harbor Group",
+          "title": "Operations Lead",
+          "location": "San Francisco",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Cornell University",
+          "degree": "BA, Economics",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 5,
+        "day": 21
+      },
+      "startupExperience": false,
+      "pronouns": "she/her",
+      "funFact": "Once cycled the length of Japan.",
+      "dietary": [
+        "Halal",
+        "Gluten-free"
+      ]
+    },
+    {
+      "id": "mbanerjee",
+      "firstName": "Mei",
+      "lastName": "Banerjee",
+      "displayName": "Mei Banerjee",
+      "email": "mbanerjee@example.invalid",
+      "phone": "+1 617 555 1077",
+      "photoId": "mbanerjee",
+      "homeRegion": {
+        "city": "Berlin",
+        "country": "Germany"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Meridian & Co.",
+          "title": "Vice President",
+          "location": "Berlin",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Vela Health",
+          "title": "Software Engineer",
+          "location": "Berlin",
+          "industry": "Healthcare",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "McGill University",
+          "degree": "BCom, Finance",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 8,
+        "day": 20
+      },
+      "startupExperience": false,
+      "funFact": "Once lived in a lighthouse for a summer."
+    },
+    {
+      "id": "atanaka",
+      "firstName": "Arjun",
+      "lastName": "Tanaka",
+      "displayName": "Arjun Tanaka",
+      "email": "atanaka@example.invalid",
+      "phone": "+1 617 555 1078",
+      "photoId": "atanaka",
+      "homeRegion": {
+        "city": "Stockholm",
+        "country": "Sweden"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Grayline Partners",
+          "title": "Senior Associate",
+          "location": "Stockholm",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "American University of Beirut",
+          "degree": "BA, History",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 5,
+        "day": 26
+      },
+      "startupExperience": false,
+      "pronouns": "she/her",
+      "dietary": [
+        "Kosher",
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "yhalvorsen",
+      "firstName": "Yuki",
+      "lastName": "Halvorsen",
+      "displayName": "Yuki Halvorsen",
+      "email": "yhalvorsen@example.invalid",
+      "phone": "+1 617 555 1079",
+      "photoId": "yhalvorsen",
+      "homeRegion": {
+        "city": "Tokyo",
+        "country": "Japan"
+      },
+      "preMBA": [
+        {
+          "company": "Northwind Advisory",
+          "title": "Chief of Staff",
+          "location": "Tokyo",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BSc, Mathematics",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [
+        "Artificial Intelligence",
+        "Growth Equity",
+        "Impact Investing",
+        "Climate Technology"
+      ],
+      "birthday": {
+        "month": 2,
+        "day": 9
+      },
+      "startupExperience": false,
+      "funFact": "Speaks five languages, badly."
+    },
+    {
+      "id": "rlarsen",
+      "firstName": "Ravi",
+      "lastName": "Larsen",
+      "displayName": "Ravi Larsen",
+      "email": "rlarsen@example.invalid",
+      "photoId": "rlarsen",
+      "homeRegion": {
+        "city": "Lagos",
+        "country": "Nigeria"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Lumen Systems",
+          "title": "Founder",
+          "location": "Lagos",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Lumen Systems",
+          "title": "Strategy Manager",
+          "location": "Lagos",
+          "industry": "Technology",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "KTH Royal Institute of Technology",
+          "degree": "BS, Mechanical Engineering",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 3,
+        "day": 21
+      },
+      "startupExperience": true,
+      "funFact": "Once lived in a lighthouse for a summer.",
+      "dietary": [
+        "No shellfish",
+        "Nut allergy"
+      ]
+    },
+    {
+      "id": "nwatanabe",
+      "firstName": "Noor",
+      "lastName": "Watanabe",
+      "displayName": "Noor Watanabe",
+      "email": "nwatanabe@example.invalid",
+      "phone": "+1 617 555 1081",
+      "photoId": "nwatanabe",
+      "homeRegion": {
+        "city": "Singapore",
+        "country": "Singapore"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Orbital Software",
+          "title": "Analyst",
+          "location": "Singapore",
+          "industry": "Technology",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Halden Retail",
+          "title": "Investment Analyst",
+          "location": "Singapore",
+          "industry": "Consumer",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Universidad de los Andes",
+          "degree": "BS, Mechanical Engineering",
+          "gradDate": "2019"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 9,
+        "day": 5
+      },
+      "startupExperience": true,
+      "dietary": [
+        "Kosher",
+        "No shellfish"
+      ]
+    },
+    {
+      "id": "arahman",
+      "firstName": "Amara",
+      "lastName": "Rahman",
+      "displayName": "Amara Rahman",
+      "email": "arahman@example.invalid",
+      "phone": "+1 617 555 1082",
+      "photoId": "arahman",
+      "homeRegion": {
+        "city": "Warsaw",
+        "country": "Poland"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Blue Harbor Group",
+          "title": "Product Manager",
+          "location": "Warsaw",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Ashford Capital",
+          "title": "Vice President",
+          "location": "Warsaw",
+          "industry": "Finance",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Tecnologico de Monterrey",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Growth Equity",
+        "Healthcare Delivery",
+        "Fintech",
+        "Private Equity"
+      ],
+      "birthday": {
+        "month": 7,
+        "day": 19
+      },
+      "startupExperience": false,
+      "dietary": [
+        "Vegan",
+        "Gluten-free"
+      ]
+    },
+    {
+      "id": "eduarte",
+      "firstName": "Elias",
+      "lastName": "Duarte",
+      "displayName": "Elias Duarte",
+      "email": "eduarte@example.invalid",
+      "phone": "+1 617 555 1083",
+      "photoId": "eduarte",
+      "homeRegion": {
+        "city": "Mexico City",
+        "country": "Mexico"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Northwind Advisory",
+          "title": "Vice President",
+          "location": "Mexico City",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Technical University of Munich",
+          "degree": "BS, Computer Science",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 10,
+        "day": 8
+      },
+      "startupExperience": false
+    },
+    {
+      "id": "skarimi",
+      "firstName": "Sven",
+      "lastName": "Karimi",
+      "displayName": "Sven Karimi",
+      "email": "skarimi@example.invalid",
+      "phone": "+1 617 555 1084",
+      "photoId": "skarimi",
+      "homeRegion": {
+        "city": "Warsaw",
+        "country": "Poland"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Ashford Capital",
+          "title": "Product Manager",
+          "location": "Warsaw",
+          "industry": "Finance",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Northwind Advisory",
+          "title": "Strategy Manager",
+          "location": "Warsaw",
+          "industry": "Consulting",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "Cairo University",
+          "degree": "BS, Industrial Engineering",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Artificial Intelligence",
+        "Private Equity"
+      ],
+      "birthday": {
+        "month": 4,
+        "day": 10
+      },
+      "startupExperience": true
+    },
+    {
+      "id": "akapoor3",
+      "firstName": "Anneke",
+      "lastName": "Kapoor",
+      "displayName": "Anneke Kapoor",
+      "email": "akapoor3@example.invalid",
+      "photoId": "akapoor3",
+      "homeRegion": {
+        "city": "Nairobi",
+        "country": "Kenya"
+      },
+      "preMBA": [
+        {
+          "company": "Cadence Media",
+          "title": "Operations Lead",
+          "location": "Nairobi",
+          "industry": "Media",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Kestrel Investments",
+          "title": "Vice President",
+          "location": "Nairobi",
+          "industry": "Finance",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Michigan",
+          "degree": "BCom, Finance",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Public Policy",
+        "Climate Technology",
+        "Fintech",
+        "General Management"
+      ],
+      "birthday": {
+        "month": 2,
+        "day": 27
+      },
+      "startupExperience": true,
+      "pronouns": "she/her"
+    },
+    {
+      "id": "haziz",
+      "firstName": "Hugo",
+      "lastName": "Aziz",
+      "displayName": "Hugo Aziz",
+      "email": "haziz@example.invalid",
+      "phone": "+1 617 555 1086",
+      "photoId": "haziz",
+      "homeRegion": {
+        "city": "Cairo",
+        "country": "Egypt"
+      },
+      "preMBA": [
+        {
+          "company": "Atlas Logistics",
+          "title": "Analyst",
+          "location": "Cairo",
+          "industry": "Industrials",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "American University of Beirut",
+          "degree": "BCom, Finance",
+          "gradDate": "2021"
+        }
+      ],
+      "professionalInterests": [
+        "Corporate Strategy",
+        "Venture Capital",
+        "Consumer Brands",
+        "Entrepreneurship",
+        "Climate Technology"
+      ],
+      "birthday": {
+        "month": 1,
+        "day": 1
+      },
+      "startupExperience": false,
+      "funFact": "Was an extra in a nationally televised advert."
+    },
+    {
+      "id": "hbianchi",
+      "firstName": "Hana",
+      "lastName": "Bianchi",
+      "displayName": "Hana Bianchi",
+      "email": "hbianchi@example.invalid",
+      "phone": "+1 617 555 1087",
+      "photoId": "hbianchi",
+      "homeRegion": {
+        "city": "Sao Paulo",
+        "country": "Brazil"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Cadence Media",
+          "title": "Strategy Manager",
+          "location": "Sao Paulo",
+          "industry": "Media",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Redwood Nonprofit Trust",
+          "title": "Founder",
+          "location": "Sao Paulo",
+          "industry": "Social Impact",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Edinburgh",
+          "degree": "BA, International Relations",
+          "gradDate": "2020"
+        }
+      ],
+      "professionalInterests": [],
+      "birthday": {
+        "month": 11,
+        "day": 25
+      },
+      "startupExperience": true,
+      "pronouns": "they/them",
+      "funFact": "Once cycled the length of Japan."
+    },
+    {
+      "id": "tpark",
+      "firstName": "Tomas",
+      "lastName": "Park",
+      "displayName": "Tomas Park",
+      "email": "tpark@example.invalid",
+      "phone": "+1 617 555 1088",
+      "homeRegion": {
+        "city": "Mumbai",
+        "country": "India"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Grayline Partners",
+          "title": "Senior Associate",
+          "location": "Mumbai",
+          "industry": "Consulting",
+          "dates": "JUL 2022 - JUN 2026"
+        }
+      ],
+      "education": [
+        {
+          "school": "Technical University of Munich",
+          "degree": "BSc, Mathematics",
+          "gradDate": "2018"
+        }
+      ],
+      "professionalInterests": [
+        "General Management",
+        "Fintech",
+        "Consumer Brands"
+      ],
+      "birthday": {
+        "month": 8,
+        "day": 11
+      },
+      "startupExperience": false,
+      "pronouns": "they/them",
+      "funFact": "Ran a supper club for three years.",
+      "dietary": [
+        "Nut allergy",
+        "No shellfish"
+      ]
+    },
+    {
+      "id": "omarchetti",
+      "firstName": "Ondine",
+      "lastName": "Marchetti",
+      "displayName": "Ondine Marchetti",
+      "email": "omarchetti@example.invalid",
+      "phone": "+1 617 555 1089",
+      "photoId": "omarchetti",
+      "homeRegion": {
+        "city": "Singapore",
+        "country": "Singapore"
+      },
+      "currentCity": "Boston, MA",
+      "preMBA": [
+        {
+          "company": "Terrace Foods",
+          "title": "Senior Associate",
+          "location": "Singapore",
+          "industry": "Consumer",
+          "dates": "JUL 2022 - JUN 2026"
+        },
+        {
+          "company": "Solstice Renewables",
+          "title": "Operations Lead",
+          "location": "Singapore",
+          "industry": "Energy",
+          "dates": "AUG 2020 - JUN 2022"
+        }
+      ],
+      "education": [
+        {
+          "school": "McGill University",
+          "degree": "BA, History",
+          "gradDate": "2022"
+        }
+      ],
+      "professionalInterests": [
+        "Healthcare Delivery"
+      ],
+      "birthday": {
+        "month": 3,
+        "day": 23
+      },
+      "startupExperience": true
+    }
+  ]
+}

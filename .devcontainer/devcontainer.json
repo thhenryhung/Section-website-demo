@@ -1,0 +1,31 @@
+{
+  "name": "Section Website Demo",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "dev server",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  }
+
+  // This is a public demo/portfolio copy — there is no private data repo to
+  // request access to. Everything builds against the synthetic sample roster;
+  // `scripts/encrypt-data.ts` falls back to the passphrase "demo" on its own.
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "dinner-round-5",
+    "title": "Small-group dinners — Round 5",
+    "category": "social",
+    "date": "2027-03-25",
+    "startTime": "19:00",
+    "location": "Groups assigned on the Social tab",
+    "description": "Groups to determine when to meet during the week",
+    "url": "/social"
+  },
+  {
+    "id": "onetoone-round-7",
+    "title": "Coffee chats — Round 7",
+    "category": "social",
+    "date": "2027-05-06",
+    "location": "Groups assigned on the Social tab",
+    "description": "Groups to determine when to meet during the week",
+    "url": "/social"
+  },
+  {
+    "id": "section-retreat-day1",
+    "title": "Section retreat (Day 1 of 3)",
+    "category": "section",
+    "date": "2026-10-09",
+    "location": "TBC"
+  },
+  {
+    "id": "section-retreat-day2",
+    "title": "Section retreat (Day 2 of 3)",
+    "category": "section",
+    "date": "2026-10-10",
+    "location": "TBC"
+  },
+  {
+    "id": "section-retreat-day3",
+    "title": "Section retreat (Day 3 of 3)",
+    "category": "section",
+    "date": "2026-10-11",
+    "location": "TBC"
+  },
+  {
+    "id": "onetoone-round-1",
+    "title": "Coffee chats — Round 1",
+    "category": "social",
+    "date": "2026-09-28",
+    "location": "Groups assigned on the Social tab",
+    "description": "Groups to determine when to meet during the week",
+    "url": "/social"
+  },
+  {
+    "id": "dinner-round-1",
+    "title": "Small-group dinners — Round 1",
+    "category": "social",
+    "date": "2026-10-05",
+    "startTime": "19:00",
+    "location": "Groups assigned on the Social tab",
+    "description": "Groups to determine when to meet during the week",
+    "url": "/social"
+  },
+  {
+    "id": "2026-09-25-section-mytake",
+    "title": "Section MyTake — Sam",
+    "category": "section",
+    "date": "2026-09-25",
+    "startTime": "12:45",
+    "endTime": "13:15",
+    "location": "Room 011"
+  },
+  {
+    "id": "2026-10-04-section-tea-party",
+    "title": "Section Tea Party 🍵🍵🍵",
+    "category": "section",
+    "date": "2026-10-04",
+    "startTime": "11:30",
+    "endTime": "14:30",
+    "location": "The Quad",
+    "description": "Bring your tea supplies and greatest vibes!",
+    "url": "/social"
+  }
+]

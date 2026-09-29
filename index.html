@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section J</title>
+    <meta name="description" content="A private calendar and social hub for MBA 2028 Section J." />
+
+    <!-- This site holds classmates' contact details. Keep it out of every index. -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+    <meta name="googlebot" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+
+    <meta name="theme-color" content="#f0f7f3" id="theme-color-meta" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <!--
+      Applies the saved (or default: light) theme before first paint, so
+      there is no flash of the wrong theme while React loads. Kept as a tiny
+      inline, non-module script specifically so it runs synchronously,
+      blocking render — src/lib/theme.ts's initTheme() does the same check
+      again on mount (cheap, idempotent) so the two never drift apart.
+    -->
+    <script>
+      try {
+        if (localStorage.getItem('section-j.theme') === 'dark') {
+          document.documentElement.classList.add('dark')
+        }
+      } catch {}
+    </script>
+
+    <!-- Installable-app support, for push notifications (see src/lib/push.ts) -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
