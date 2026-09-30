@@ -3,7 +3,7 @@ import { PersonPhoto } from '../components/PersonPhoto'
 import { useSectionData } from '../gate/SectionData'
 import type { Person, Region } from '../lib/types'
 
-type Mode = 'portrait' | 'hometown' | 'employer'
+type Mode = 'portrait' | 'name-photo' | 'hometown' | 'employer'
 
 type Question = {
   prompt: string
@@ -11,10 +11,13 @@ type Question = {
   answer: string
   options: string[]
   showsPortrait: boolean
+  showsName: boolean
+  photoOptions?: Person[]
 }
 
 const MODES: { mode: Mode; label: string }[] = [
   { mode: 'portrait', label: 'Guess who' },
+  { mode: 'name-photo', label: 'Name → photo' },
   { mode: 'hometown', label: 'Name → hometown' },
   { mode: 'employer', label: 'Name → employer' },
 ]
@@ -43,6 +46,25 @@ function options(answer: string, possibilities: string[], seed: string): string[
 
 function makeQuestion(mode: Mode, round: number, people: Person[]): Question | null {
   const seed = `${mode}-${round}`
+  if (mode === 'name-photo') {
+    const candidates = people.filter((person) => person.photoId)
+    if (candidates.length < 4) return null
+    const person = candidates[hash(seed) % candidates.length]
+    const photoOptions = rotate(
+      [person, ...rotate(candidates.filter((candidate) => candidate.id !== person.id), `${seed}-photos`).slice(0, 3)],
+      `${seed}-order`,
+    )
+    return {
+      prompt: `Which portrait belongs to ${person.displayName}?`,
+      person,
+      answer: person.id,
+      options: photoOptions.map((candidate) => candidate.id),
+      showsPortrait: false,
+      showsName: false,
+      photoOptions,
+    }
+  }
+
   if (mode === 'portrait') {
     const candidates = people.filter((person) => person.photoId)
     if (candidates.length < 4) return null
@@ -53,6 +75,7 @@ function makeQuestion(mode: Mode, round: number, people: Person[]): Question | n
       answer: person.displayName,
       options: options(person.displayName, candidates.map((candidate) => candidate.displayName), seed),
       showsPortrait: true,
+      showsName: false,
     }
   }
 
@@ -67,6 +90,7 @@ function makeQuestion(mode: Mode, round: number, people: Person[]): Question | n
       answer,
       options: options(answer, candidates.flatMap((candidate) => regionLabel(candidate.homeRegion) ?? []), seed),
       showsPortrait: false,
+      showsName: true,
     }
   }
 
@@ -80,6 +104,7 @@ function makeQuestion(mode: Mode, round: number, people: Person[]): Question | n
     answer,
     options: options(answer, candidates.flatMap((candidate) => candidate.preMBA[0]?.company ?? []), seed),
     showsPortrait: false,
+    showsName: true,
   }
 }
 
@@ -151,13 +176,13 @@ export function FunPage() {
         <p className="text-sm text-ink-500">{answered === 0 ? 'Question 1' : `${correct} correct / ${answered}`}</p>
         {question.showsPortrait ? (
           <PersonPhoto person={question.person} className="mx-auto mt-5 size-36 rounded-full border-4 border-green-100 shadow-md dark:border-green-900" />
-        ) : (
+        ) : question.showsName ? (
           <p className="mt-7 font-serif text-3xl text-green-700 dark:text-green-400">{question.person.displayName}</p>
-        )}
+        ) : null}
         <h1 className="mt-5 font-serif text-2xl">{question.prompt}</h1>
 
         <div className="mx-auto mt-6 grid max-w-lg gap-3 sm:grid-cols-2">
-          {question.options.map((option) => {
+          {question.options.map((option, index) => {
             const state = selected
               ? option === question.answer
                 ? 'border-green-600 bg-green-100 text-green-900 dark:bg-green-950/50 dark:text-green-100'
@@ -165,7 +190,19 @@ export function FunPage() {
                   ? 'border-crimson-600 bg-crimson-50 text-crimson-900 dark:bg-crimson-950/40 dark:text-crimson-100'
                   : 'border-ink-200 text-ink-400 dark:border-ink-800'
               : 'border-ink-200 bg-white hover:border-green-400 hover:bg-green-50 dark:border-ink-800 dark:bg-ink-900 dark:hover:bg-green-950/30'
-            return (
+            const optionPerson = question.photoOptions?.find((person) => person.id === option)
+            return question.photoOptions && optionPerson ? (
+              <button
+                key={option}
+                type="button"
+                aria-label={`Portrait option ${index + 1}`}
+                disabled={Boolean(selected)}
+                onClick={() => answer(option)}
+                className={`flex items-center justify-center rounded-lg border p-3 transition disabled:cursor-default ${state}`}
+              >
+                <PersonPhoto person={optionPerson} className="size-24 rounded-full shadow-sm" />
+              </button>
+            ) : (
               <button
                 key={option}
                 type="button"
@@ -182,7 +219,7 @@ export function FunPage() {
         {selected && (
           <div className="mt-6">
             <p className={`text-sm font-medium ${isCorrect ? 'text-green-700 dark:text-green-400' : 'text-crimson-700 dark:text-crimson-400'}`}>
-              {isCorrect ? 'Correct!' : `Not quite — it was ${question.answer}.`}
+              {isCorrect ? 'Correct!' : `Not quite — it was ${question.photoOptions ? question.person.displayName : question.answer}.`}
             </p>
             <button type="button" onClick={next} className="mt-4 rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white hover:bg-green-700">
               Next →
