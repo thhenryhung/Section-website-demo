@@ -12,10 +12,10 @@ compatibility_date = "2026-09-01"
 
 [[kv_namespaces]]
 binding = "EVENTS_KV"
-id = "REPLACE_ME"
-preview_id = "REPLACE_ME"
+id = "75b8a835a5e845528f94a340742ba720"
+preview_id = "98341f693c85462989ab59b104b2b662"
 
 [[kv_namespaces]]
 binding = "PUSH_SUBSCRIPTIONS_KV"
-id = "REPLACE_ME"
-preview_id = "REPLACE_ME"
+id = "7173a0669c124c3287c9dd2f000b8d17"
+preview_id = "7a7c730a1d8b4322bcdbc6fd3d0fa1ba"
