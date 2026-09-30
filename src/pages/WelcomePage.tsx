@@ -24,6 +24,18 @@ const ICON_PROPS = {
 
 const FEATURES: Feature[] = [
   {
+    to: '/directory',
+    name: 'Jirectory',
+    description: 'Browse the section by hometown, pre-MBA background, and interests',
+    icon: (
+      <svg {...ICON_PROPS}>
+        <circle cx="9" cy="8" r="3" />
+        <path d="M3.5 20c0-3.2 2.5-5.5 5.5-5.5s5.5 2.3 5.5 5.5" />
+        <path d="M16 7h5M16 11h5M16 15h4" />
+      </svg>
+    ),
+  },
+  {
     to: '/calendar',
     name: 'Jalendar',
     description: 'Section events, dinners, and birthdays, all in one place',

@@ -15,6 +15,7 @@ export const siteConfig = {
   tagline: 'MBA Class of 2028',
   description: 'A private calendar and social hub for MBA 2028 Section J.',
   tabs: [
+    { to: '/directory', label: 'Jirectory' },
     { to: '/calendar', label: 'Jalendar' },
     { to: '/social', label: 'Jocial' },
   ],

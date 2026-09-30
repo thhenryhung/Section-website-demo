@@ -9,18 +9,11 @@
  *     This is what CI does, after checking out the private repo.
  *   - Otherwise the synthetic sample, which is what every contributor gets.
  *
- * Field minimization (September 2026): Directory and the quiz — the two
- * features that used photos, home region, pre-MBA background, education,
- * professional interests, pronouns, fun facts, email and phone — were removed
- * for privacy reasons. `toPublicPerson` below is the actual enforcement of
- * that: it strips every field down to what Calendar and Social genuinely read,
- * so a browser that unlocks the site can no longer retrieve the rest from
- * memory or the network tab, not just fail to see it rendered. `roster.json`
- * itself (private repo) and `npm run pair` (Node, never ships to a browser)
- * keep full detail — see `src/lib/pairing.ts`'s cost function, which uses
- * home region and pre-MBA industry to spread dinner groups out. Only the
- * in-app admin round generator, which runs on this trimmed data client-side,
- * loses that nudge; it still avoids repeat meetings, its primary signal.
+ * Field minimization (September 2026): Real section builds strip directory
+ * data down to what Calendar and Social genuinely read, so a browser cannot
+ * retrieve sensitive profile fields merely by unlocking it. The public sample
+ * build is the deliberate exception: its names, profiles, and portraits are
+ * fabricated, so it retains directory fields to demonstrate Jirectory.
  *
  * Output (all git-ignored — regenerated on every build):
  *   public/data/roster.enc
@@ -61,9 +54,11 @@ function toPublicPerson(p: Person): Person {
     // to the browser, so this public collection cannot expose a real roster.
     photoId: useSample ? p.photoId : undefined,
     email: '',
-    preMBA: [],
-    education: [],
-    professionalInterests: [],
+    homeRegion: useSample ? p.homeRegion : undefined,
+    currentCity: useSample ? p.currentCity : undefined,
+    preMBA: useSample ? p.preMBA : [],
+    education: useSample ? p.education : [],
+    professionalInterests: useSample ? p.professionalInterests : [],
     birthday: p.birthday,
     dietary: p.dietary,
   }

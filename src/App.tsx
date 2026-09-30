@@ -4,6 +4,7 @@ import { UnlockScreen } from './gate/UnlockScreen'
 import { WelcomePage } from './pages/WelcomePage'
 import { CalendarPage } from './pages/CalendarPage'
 import { SocialPage } from './pages/SocialPage'
+import { DirectoryPage } from './pages/DirectoryPage'
 import { AdminPage } from './pages/AdminPage'
 import { InstallPage } from './pages/InstallPage'
 import { ThemeToggle } from './components/ThemeToggle'
@@ -75,6 +76,7 @@ export function App() {
           <Route path="/" element={<WelcomePage />} />
           <Route path="/calendar" element={<CalendarPage />} />
           <Route path="/social" element={<SocialPage />} />
+          <Route path="/directory" element={<DirectoryPage />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/install" element={<InstallPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
