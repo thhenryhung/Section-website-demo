@@ -41,7 +41,7 @@ function matchesEveryFilter(person: Person, filters: Filters): boolean {
 export function DirectoryPage() {
   const { people, isSampleBuild } = useSectionData()
   const [query, setQuery] = useState('')
-  const [view, setView] = useState<View>('table')
+  const [view, setView] = useState<View>('card')
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS)
 
   const sortedPeople = useMemo(
