@@ -181,7 +181,10 @@ for (let i = 0; i < COUNT; i++) {
   // Gap rates are matched to the real section, so the UI is exercised against
   // the sparsity it will actually meet: 39% have no professional interests,
   // 61% no interests, 78% no activities.
-  const hasPhoto = chance(0.94)
+  // Preserve the original seeded sequence so this portrait-only change cannot
+  // silently reshuffle the rest of the fabricated roster. The legacy avatar
+  // bundle remains sparse, but the rendered portrait pool covers every person.
+  const hasAvatar = chance(0.94)
   const hasSecondRole = chance(0.45)
   const hasProfessionalInterests = chance(0.68)
 
@@ -193,7 +196,9 @@ for (let i = 0; i < COUNT; i++) {
     email: `${id}@${'example.invalid'}`,
     phone: chance(0.9) ? `+1 617 555 ${String(1000 + i).slice(-4)}` : undefined,
     partner: undefined,
-    photoId: hasPhoto ? id : undefined,
+    // Every fabricated student receives a generated demo portrait. This affects
+    // only the sample build; production photos are still stripped before shipping.
+    photoId: id,
     homeRegion: region,
     currentCity: chance(0.8) ? 'Boston, MA' : undefined,
     preMBA: [
@@ -225,7 +230,7 @@ for (let i = 0; i < COUNT; i++) {
   }
 
   people.push(person)
-  if (hasPhoto) {
+  if (hasAvatar) {
     photos[id] = avatarDataUri(
       (firstName[0] + lastName[0]).toUpperCase(),
       Math.floor(random() * 360),

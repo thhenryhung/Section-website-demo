@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import Fuse from 'fuse.js'
 import { useSectionData } from '../gate/SectionData'
+import { PersonPhoto } from '../components/PersonPhoto'
 import { metWith } from '../lib/pairing'
 import { formatLongDate } from '../lib/calendar'
 import type { MeetupRound, Person } from '../lib/types'
@@ -83,8 +84,9 @@ export function SocialPage() {
               return (
                 <li
                   key={id}
-                  className="rounded-full border border-ink-200 px-3 py-1 text-sm dark:border-ink-800"
+                  className="flex items-center gap-1.5 rounded-full border border-ink-200 py-1 pl-1 pr-3 text-sm dark:border-ink-800"
                 >
+                  <PersonPhoto person={person} className="size-5 rounded-full" />
                   {person.firstName}
                   {count > 1 && <span className="text-xs text-ink-400"> ×{count}</span>}
                 </li>
@@ -132,6 +134,7 @@ function RoundView({
                     id === me ? 'opacity-50' : ''
                   }`}
                 >
+                  <PersonPhoto person={person} className="size-14 rounded-full border-2 border-white shadow-sm dark:border-ink-800" />
                   <span className="text-xs leading-tight">{person.displayName}</span>
                   {person.dietary && person.dietary.length > 0 && (
                     <span className="text-[10px] text-ink-400">{person.dietary.join(', ')}</span>
@@ -152,11 +155,20 @@ function RoundView({
             <div key={group.label} className="rounded-lg border border-ink-200 p-2 dark:border-ink-800">
               <p className="mb-1 text-xs font-semibold text-ink-400">{group.label}</p>
               <ul className="text-sm">
-                {group.memberIds.map((id) => (
-                  <li key={id} className={id === me ? 'font-semibold text-green-700 dark:text-green-400' : ''}>
-                    {byId.get(id)?.displayName ?? id}
-                  </li>
-                ))}
+                {group.memberIds.map((id) => {
+                  const person = byId.get(id)
+                  return (
+                    <li
+                      key={id}
+                      className={`flex items-center gap-2 py-1 ${
+                        id === me ? 'font-semibold text-green-700 dark:text-green-400' : ''
+                      }`}
+                    >
+                      {person && <PersonPhoto person={person} className="size-7 rounded-full" />}
+                      {person?.displayName ?? id}
+                    </li>
+                  )
+                })}
               </ul>
             </div>
           ))}
@@ -237,8 +249,9 @@ function NamePicker({
                 type="button"
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => select(person)}
-                className="block w-full px-3 py-2 text-left text-sm hover:bg-ink-100 dark:hover:bg-ink-800"
+                className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:bg-ink-100 dark:hover:bg-ink-800"
               >
+                <PersonPhoto person={person} className="size-7 rounded-full" />
                 {person.displayName}
               </button>
             ))
@@ -248,4 +261,3 @@ function NamePicker({
     </div>
   )
 }
-

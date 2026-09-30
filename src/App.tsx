@@ -22,7 +22,7 @@ export function App() {
     <div className="min-h-dvh">
       {isSampleBuild && (
         <p className="bg-amber-100 px-4 py-1.5 text-center text-xs text-amber-900">
-          Sample build — every person shown here is invented. No real section data is loaded.
+          Sample build — every person and portrait shown here is fictional. No real section data is loaded.
         </p>
       )}
 

@@ -1,5 +1,7 @@
 import type { ReactElement } from 'react'
 import { Link } from 'react-router-dom'
+import { PersonPhoto } from '../components/PersonPhoto'
+import { useSectionData } from '../gate/SectionData'
 import { siteConfig } from '../lib/siteConfig'
 
 type Feature = {
@@ -48,8 +50,17 @@ const FEATURES: Feature[] = [
   },
 ]
 
+// A deliberately varied welcome strip. These remain fictional sample people;
+// the complete roster appears with portraits in Jocial.
+const FEATURED_SAMPLE_IDS = ['fmenon', 'aaziz', 'ipetrov', 'eduarte', 'gbianchi', 'ryusuf2']
+
 /** The first thing anyone sees after unlocking — a quick orientation. */
 export function WelcomePage() {
+  const { people, isSampleBuild } = useSectionData()
+  const featuredPeople = FEATURED_SAMPLE_IDS.map((id) => people.find((person) => person.id === id)).filter(
+    (person): person is NonNullable<typeof person> => Boolean(person?.photoId),
+  )
+
   return (
     <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-green-100 to-green-50 dark:from-green-700 dark:to-ink-950">
       <div className="absolute inset-0 dark:bg-ink-950/60" aria-hidden="true" />
@@ -75,6 +86,29 @@ export function WelcomePage() {
             </Link>
           ))}
         </div>
+
+        {isSampleBuild && featuredPeople.length > 0 && (
+          <section className="mt-7" aria-labelledby="sample-people-heading">
+            <div className="mb-3 text-center">
+              <h2 id="sample-people-heading" className="font-serif text-xl text-ink-900 dark:text-white">
+                Meet the sample section
+              </h2>
+              <p className="mt-1 text-xs text-ink-500 dark:text-ink-300">
+                A fictional, generated portrait collection for this public demo.
+              </p>
+            </div>
+            <ul className="grid grid-cols-3 gap-3 sm:grid-cols-6">
+              {featuredPeople.map((person) => (
+                <li key={person.id} className="text-center">
+                  <PersonPhoto person={person} className="mx-auto size-16 rounded-full border-2 border-white shadow-sm" />
+                  <span className="mt-1 block truncate text-xs text-ink-700 dark:text-ink-100">
+                    {person.firstName}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <Link
           to="/install"

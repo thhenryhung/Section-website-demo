@@ -57,6 +57,9 @@ function toPublicPerson(p: Person): Person {
     firstName: p.firstName,
     lastName: p.lastName,
     displayName: p.displayName,
+    // Generated demo portraits are safe to show. Real photo IDs are never sent
+    // to the browser, so this public collection cannot expose a real roster.
+    photoId: useSample ? p.photoId : undefined,
     email: '',
     preMBA: [],
     education: [],

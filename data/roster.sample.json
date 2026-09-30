@@ -1011,6 +1011,7 @@
       "displayName": "Priya Eriksen",
       "email": "periksen@example.invalid",
       "phone": "+1 617 555 1023",
+      "photoId": "periksen",
       "homeRegion": {
         "city": "Toronto",
         "state": "ON",
@@ -1089,6 +1090,7 @@
       "displayName": "Elias Vargas",
       "email": "evargas@example.invalid",
       "phone": "+1 617 555 1025",
+      "photoId": "evargas",
       "homeRegion": {
         "city": "Lagos",
         "country": "Nigeria"
@@ -1124,6 +1126,7 @@
       "displayName": "Greta Bianchi",
       "email": "gbianchi@example.invalid",
       "phone": "+1 617 555 1026",
+      "photoId": "gbianchi",
       "homeRegion": {
         "city": "New York",
         "state": "NY",
@@ -2746,6 +2749,7 @@
       "displayName": "Lucia Okonkwo",
       "email": "lokonkwo@example.invalid",
       "phone": "+1 617 555 1062",
+      "photoId": "lokonkwo",
       "homeRegion": {
         "city": "Beirut",
         "country": "Lebanon"
@@ -3297,6 +3301,7 @@
       "displayName": "Rafael Yusuf",
       "email": "ryusuf2@example.invalid",
       "phone": "+1 617 555 1075",
+      "photoId": "ryusuf2",
       "homeRegion": {
         "city": "Boston",
         "state": "MA",
@@ -3871,6 +3876,7 @@
       "displayName": "Tomas Park",
       "email": "tpark@example.invalid",
       "phone": "+1 617 555 1088",
+      "photoId": "tpark",
       "homeRegion": {
         "city": "Mumbai",
         "country": "India"
