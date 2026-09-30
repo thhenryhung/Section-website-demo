@@ -17,6 +17,7 @@ import {
 } from '../lib/calendar'
 import type { CalendarEntry, EventCategory, SectionEvent } from '../lib/types'
 import rawEvents from '../../data/events.json'
+import rawDemoEvents from '../../data/events.demo.json'
 
 const EVENTS_POLL_MS = 45_000
 
@@ -55,16 +56,22 @@ const CATEGORY_BORDER: Record<EventCategory, string> = {
 const ALL_CATEGORIES: EventCategory[] = ['section', 'social', 'birthday']
 
 export function CalendarPage() {
-  const { people, passphrase } = useSectionData()
+  const { people, passphrase, isSampleBuild } = useSectionData()
 
-  // Static import is the seed/fallback: it's what renders offline, in plain
-  // `npm run dev` (no Functions runtime), or if /api/events ever errors — the
-  // fetch below only ever improves on it, never blocks the page on it.
-  const [events, setEvents] = useState<SectionEvent[]>(() => rawEvents as SectionEvent[])
+  // The public demo is intentionally isolated: it starts from its fabricated
+  // event file and never fetches the real site's mutable KV-backed event API.
+  // Real builds retain the static source plus live overlay behavior below.
+  const [events, setEvents] = useState<SectionEvent[]>([])
 
-  // Polling (not just fetch-on-mount) so an admin's edit reaches a tab that's
-  // already open on the Calendar, not just a fresh navigation to it.
   useEffect(() => {
+    if (isSampleBuild) {
+      setEvents(rawDemoEvents as SectionEvent[])
+      return
+    }
+
+    // Polling (not just fetch-on-mount) so an admin's edit reaches a tab that's
+    // already open on the Calendar, not just a fresh navigation to it.
+    setEvents(rawEvents as SectionEvent[])
     let cancelled = false
     const load = () =>
       fetch('/api/events', { cache: 'no-cache' })
@@ -79,7 +86,7 @@ export function CalendarPage() {
       cancelled = true
       clearInterval(interval)
     }
-  }, [])
+  }, [isSampleBuild])
 
   const today = toISODate(new Date())
   const [cursor, setCursor] = useState(() => {
@@ -201,7 +208,7 @@ export function CalendarPage() {
    * passphrase travels in the URL instead, making this link a bearer secret.
    * Built only once unlocked, so it's never rendered before we actually have it.
    */
-  const feedUrl = passphrase
+  const feedUrl = !isSampleBuild && passphrase
     ? `${window.location.origin}/calendar.ics?passphrase=${encodeURIComponent(passphrase)}`
     : null
 
@@ -489,13 +496,19 @@ export function CalendarPage() {
       )}
 
       <p className="text-xs text-ink-400">
-        Something missing? An admin can add it instantly from{' '}
-        <Link to="/admin" className="underline underline-offset-2">
-          the admin panel
-        </Link>
-        , or open a pull request against{' '}
-        <code className="rounded bg-ink-100 px-1 dark:bg-ink-800">data/events.json</code> for a
-        change that goes through review first.
+        {isSampleBuild ? (
+          <>This public demo uses only the fabricated events in <code className="rounded bg-ink-100 px-1 dark:bg-ink-800">data/events.demo.json</code>.</>
+        ) : (
+          <>
+            Something missing? An admin can add it instantly from{' '}
+            <Link to="/admin" className="underline underline-offset-2">
+              the admin panel
+            </Link>
+            , or open a pull request against{' '}
+            <code className="rounded bg-ink-100 px-1 dark:bg-ink-800">data/events.json</code> for a
+            change that goes through review first.
+          </>
+        )}
       </p>
 
     </div>
@@ -510,4 +523,3 @@ function EntryChip({ entry }: { entry: CalendarEntry }) {
     </span>
   )
 }
-
