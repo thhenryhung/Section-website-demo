@@ -60,6 +60,18 @@ const FEATURES: Feature[] = [
       </svg>
     ),
   },
+  {
+    to: '/fun',
+    name: 'Just for Fun',
+    description: 'Quiz yourself on fictional classmates’ hometowns, employers, and faces',
+    icon: (
+      <svg {...ICON_PROPS}>
+        <circle cx="12" cy="12" r="9" />
+        <path d="M9.5 9a2.5 2.5 0 1 1 4.2 1.8c-.9.8-1.7 1.3-1.7 2.7" />
+        <path d="M12 17h.01" />
+      </svg>
+    ),
+  },
 ]
 
 // A deliberately varied welcome strip. These remain fictional sample people;

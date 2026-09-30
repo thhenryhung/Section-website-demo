@@ -18,6 +18,7 @@ export const siteConfig = {
     { to: '/directory', label: 'Jirectory' },
     { to: '/calendar', label: 'Jalendar' },
     { to: '/social', label: 'Jocial' },
+    { to: '/fun', label: 'Just for Fun' },
   ],
   github: { owner: 'thhenryhung', repo: 'section-website-demo' },
   cloudflare: { pagesProject: 'section-website-demo' },
